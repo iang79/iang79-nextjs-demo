@@ -1,5 +1,5 @@
 Change package.json to deploy on netlify
-
+```json
 {
   "name": "nextjs-demo",
   "version": "0.1.0",
@@ -17,7 +17,7 @@ Change package.json to deploy on netlify
     "react-dom": "17.0.1"
   }
 }
-
+```
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
