@@ -1,4 +1,7 @@
-Change package.json to deploy on netlify
+## Deploy on netlify
+
+Change package.json in the project
+
 ```json
 {
   "name": "nextjs-demo",
@@ -19,6 +22,11 @@ Change package.json to deploy on netlify
 }
 ```
 
+Build settings on NETLIFY
+
+Build command: next build
+
+*************************************************
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
