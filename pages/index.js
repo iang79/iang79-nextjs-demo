@@ -4,6 +4,8 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
+    
+    
     <div className={styles.container}>
       <Head>
         <title>Create Next App</title>
@@ -12,11 +14,29 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-        Read{' '}
+        Practicing with NextJS{' '}<br></br>
         <Link href="/posts/first-post">
-        <a>this page!</a>
+        <a>read this post!</a>
         </Link>
         </h1>
+
+        <ul>
+          <li>
+            <Link href="/">
+              <a>Home</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/about/about">
+              <a>About Us</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/blog/hello-world">
+              <a>Blog Post</a>
+            </Link>
+          </li>
+        </ul>
 
         <p className={styles.description}>
           Get started by editing{' '}
